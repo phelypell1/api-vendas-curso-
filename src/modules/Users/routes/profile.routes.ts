@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import { celebrate, Joi, Segments } from 'celebrate';
-import multer from 'multer';
 import isAuthenticaded from '../../../shared/http/middlewares/isAuthenticaded';
 import ProfileController from '../controllers/ProfileController';
 
